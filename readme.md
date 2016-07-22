@@ -1,6 +1,6 @@
-# Learn Redux
+# JsJitsu - A site for learning javascript
 
-A simple React + Redux implementation. This will be turned into a free video series once the app is totally fleshed out.
+Free videos on learning javascript
 
 ## Running
 
