@@ -24,9 +24,10 @@ const auth = new AuthService('sOWrDSsdKlfg55vTFUzvyMUuI0WSpJzX', 'chrisciampoli.
 // onEnter callback to validate authentication in private routes
 const requireAuth = (nextState, replace) => {
     if (!auth.loggedIn()) {
-        replace({ pathname: '/login' })
+        replace({ pathname: '/login' });
+        auth.login();
     }
-}
+};
 
 const router = (
   <Provider store={store}>
