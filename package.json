@@ -1,22 +1,22 @@
 {
-  "name": "learn-redux",
+  "name": "jsjitsu",
   "version": "1.0.0",
-  "description": ":) ",
+  "description": "videos to learn javascript",
   "scripts": {
     "build:webpack": "NODE_ENV=production webpack --config webpack.config.prod.js",
     "build": "npm run clean && npm run build:webpack",
     "test": "NODE_ENV=production mocha './tests/**/*.spec.js' --compilers js:babel-core/register",
     "clean": "rimraf dist",
     "start": "node devServer.js",
-    "tunnel": "browser-sync start --proxy localhost:7770 --tunnel wesbos"
+    "tunnel": "browser-sync start --proxy localhost:7770 --tunnel chrisciampoli"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/wesbos/Learn-Redux.git"
+    "url": "https://github.com/chrisciampoli/jsjitsu.git"
   },
   "author": "Wes Bos",
   "license": "MIT",
-  "homepage": "https://github.com/wesbos/Learn-Redux",
+  "homepage": "github.com/chrisciampoli/jsjitsu",
   "dependencies": {
     "auth0-lock": "^10.0.0",
     "babel-core": "^6.7.7",
