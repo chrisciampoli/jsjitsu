@@ -12,9 +12,9 @@ export class Login extends React.Component {
         const { auth } = this.props;
 
         return (
-            <div>
+            <div style={{textAlign: 'center'}}>
                 <h2>Login</h2>
-                <ButtonToolbar>
+                <ButtonToolbar style={{display:'inline-block'}}>
                     <Button bsStyle="primary" onClick={this.props.route.auth.login.bind(this)}>Login</Button>
                 </ButtonToolbar>
             </div>
