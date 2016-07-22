@@ -14,7 +14,7 @@
     "type": "git",
     "url": "https://github.com/chrisciampoli/jsjitsu.git"
   },
-  "author": "Wes Bos",
+  "author": "Christopher Ciampoli (scaffold by Wes Bos)",
   "license": "MIT",
   "homepage": "github.com/chrisciampoli/jsjitsu",
   "dependencies": {
